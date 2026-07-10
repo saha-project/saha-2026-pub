@@ -1,0 +1,44 @@
+# data objects (live on Zenodo, never in git)
+*.h5ad
+*.rds
+*.zarr/
+*.parquet
+*.h5
+*.loom
+*.mtx
+*.npy
+*.npz
+
+# figure/render outputs (regenerated from code)
+*.png
+*.pdf
+*.svg
+*.tif
+*.tiff
+outputs/
+figures/
+results/
+
+# source-data tables (ship as Nature Source Data, not in git)
+source_data/
+
+# python / notebook cruft
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+env/
+
+# assistant / agent tooling traces — never publish
+.claude/
+.claude*
+CLAUDE.md
+CLAUDE.local.md
+.omc/
+.omc*
+AGENTS.md
+.planning/
+.cursor/
+.aider*
+.github/copilot*
