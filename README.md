@@ -11,7 +11,8 @@ A frozen, citable snapshot that reproduces the figures of this paper. Organized 
 
 ## Relationship to other SAHA repos
 - **`SAHA`** — the org's general/evergreen landing repo (kept separate; not this paper).
-- **`saha-scimap`**, **`saha-maxfuse`**, CONCH pipeline — component/method repos owned by collaborators; they cover Fig 2 (CONCH histology) and Fig 4 (RNA–protein / MaxFuse, scimap).
+- **Fig 2 (whole-slide H&E histology)** — [`rendeirolab/LazySlide`](https://github.com/rendeirolab/LazySlide) (CONCH / CellViT pipeline; also Fig 5c–d IBD histology). Maintained by the Rendeiro lab (CeMM).
+- **Fig 4 (RNA–protein integration)** — [`saha-project/saha-maxfuse`](https://github.com/saha-project/saha-maxfuse) (MaxFuse cell matching) and [`saha-project/saha-scimap`](https://github.com/saha-project/saha-scimap) (protein gating / annotation).
 - **`saha-data-access`** — portal / programmatic access.
 
 ## Data
@@ -19,4 +20,4 @@ Large objects (h5ad / rds / zarr) are on **Zenodo** — not in this repo. Per-fi
 **Source Data** tables accompany the manuscript (Nature Source Data requirement), staged
 separately, not committed here.
 
-Fig 1 (atlas integration) is produced elsewhere; Fig 2 and Fig 4 are the collaborator repos above.
+Fig 1 (atlas integration) code is being added (`fig1_atlas_integration/`); Fig 2 and Fig 4 live in the repos linked above.

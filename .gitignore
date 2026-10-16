@@ -30,15 +30,8 @@ __pycache__/
 .venv/
 env/
 
-# assistant / agent tooling traces — never publish
-.claude/
-.claude*
-CLAUDE.md
-CLAUDE.local.md
-.omc/
-.omc*
-AGENTS.md
-.planning/
-.cursor/
-.aider*
-.github/copilot*
+# editor / local tooling
+.vscode/
+.idea/
+*.swp
+.env
