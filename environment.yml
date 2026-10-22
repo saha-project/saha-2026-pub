@@ -1,0 +1,29 @@
+# Python environment for saha-2026-pub (everything except fig5_ibd/integration, which has its own
+# environment.yml). Pinned to the lab's `saha` analysis environment (2026-10). Analyses ran over
+# 2024-2026, so earlier scripts (fig1_atlas_integration/as_run) predate some of these versions;
+# fig1d_joint_umap.py and plot_fig1d_from_coordinates.py are tested with exactly these.
+# R packages: see README "Environment".
+name: saha-2026-pub
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - numpy=2.3.5
+  - pandas=2.3.3
+  - scipy=1.17.0
+  - matplotlib=3.10.8
+  - seaborn=0.13.2
+  - scikit-learn=1.8.0
+  - statsmodels=0.14.6
+  - h5py=3.15.1
+  - pyarrow=23.0.0
+  - shapely=2.1.2
+  - scanpy=1.11.5
+  - anndata=0.12.7
+  - squidpy=1.7.0
+  - pip
+  - pip:
+      - harmonypy==0.2.0
+      - matplotlib-scalebar==0.9.0
+      - liana==1.7.1

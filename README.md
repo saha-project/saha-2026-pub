@@ -16,6 +16,12 @@ A frozen, citable snapshot that reproduces the figures of this paper. Organized 
 - **Fig 4 (RNA–protein integration)** — [`saha-project/saha-maxfuse`](https://github.com/saha-project/saha-maxfuse) (MaxFuse cell matching) and [`saha-project/saha-scimap`](https://github.com/saha-project/saha-scimap) (protein gating / annotation).
 - **`saha-data-access`** — portal / programmatic access.
 
+## Environment
+`conda env create -f environment.yml` (Python); Fig 5b integration uses
+`fig5_ibd/integration/environment.yml`. R packages: Seurat (v5), InSituType, InSituCor,
+spatstat, mclust, pheatmap, dplyr, yaml, and CellularNeighborhoods
+(`devtools::install_github("Nanostring-Biostats/CosMx-Analysis-Scratch-Space@Main", subdir = "_code/cellular-neighborhoods")`).
+
 ## Data
 Large objects (SpatialData zarr) are not in this repo. They are openly available at
 `s3://saha-public` (endpoint `https://s3.wasabisys.com`, no credentials; see
