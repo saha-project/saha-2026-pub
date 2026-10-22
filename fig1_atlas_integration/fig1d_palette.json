@@ -1,0 +1,29 @@
+{
+ "Insitutype_Broad": {
+  "Endothelial": "#ff7f0e",
+  "Epithelial": "#1f77b4",
+  "Erythroid": "#f2e205",
+  "Immune-Other": "#bbbbbb",
+  "Lymphoid-B": "#ff99cc",
+  "Lymphoid-DC": "#7dd520",
+  "Lymphoid-Other": "#17becf",
+  "Lymphoid-Plasma": "#7f7f7f",
+  "Lymphoid-T": "#8c564b",
+  "Mesenchymal-Stromal": "#2ca02c",
+  "Mixed": "#bbbbbb",
+  "Myeloid": "#d62728",
+  "Neuronal-Glial": "#9467bd",
+  "Stem": "#ff33cc"
+ },
+ "SAHA_organcode": {
+  "APE": "#8b0000",
+  "BM": "#800000",
+  "COL": "#003366",
+  "ILE": "#005f6a",
+  "LIV": "#a68b00",
+  "LN": "#2a6365",
+  "PANC": "#550033",
+  "PROS": "#004d1a",
+  "STO": "#c1440e"
+ }
+}
